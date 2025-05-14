@@ -2998,7 +2998,7 @@ addCommand("hatorbit",function()
 	table.insert(genv.connections, diedCon)
 end, {}, 3)
 
--- credits to @xyzkade and @deuces1961 for Kade's reanim as a base
+-- credits to @iris and @ella for a reanim as a base
 local function loadReanim()
 	local char = localPlayer.Character or localPlayer.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
